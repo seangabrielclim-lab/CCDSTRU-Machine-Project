@@ -224,7 +224,7 @@ int gameOver(char board[3][3], int moveCounter, int startPhase)
     int b = countOwned(board, 'B');
     int over = 0;
 
-    if (free <= 3)
+    if (free == 3)
         over = 1;
 
     if (moveCounter >= 20)
