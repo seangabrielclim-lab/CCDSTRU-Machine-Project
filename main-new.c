@@ -11,7 +11,7 @@ void printBoard(char board[SIZE][SIZE])
     printf("||        1 2 3         ||\n");
     for (i = 0; i < SIZE; i++)
     {
-        printf("||      %d ", i);
+        printf("||      %d ", i+1);
         for (j = 0; j < SIZE; j++)
         {
             printf("%c ", board[i][j]);
